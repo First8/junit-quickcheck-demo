@@ -9,7 +9,7 @@ All test classes need to have a `@RunWith(JUnitQuickcheck.class)` annotation.
 
 From [BookResourceTest](src/test/java/nl/first8/generativetesting/rest/BookResourceTest.java)
 
-```
+```java
     /**
      * Example using build types, which junit-quickcheck can generate.
      * 
@@ -45,7 +45,7 @@ This test is run 100 times with random values.
 
 ## User defined datatypes
 
-```
+```java
     /**
      * Example using a user defined type, of which all constructor arguments are
      * build-in types.
@@ -74,7 +74,7 @@ This means that we can only use constructors with only build-in datatypes as par
 
 ## Custom generator
 
-```
+```java
     /**
      * Because book has a constructor with user defined data types (Author and
      * Publisher), the Ctor.class generator will not work.
@@ -136,7 +136,7 @@ In order to generate values of user defined types, with constructor parameters f
 ## Mocking and collections
 From [BookControllerTest](src/test/java/nl/first8/generativetesting/rest/BookControllerTest.java)
 
-```
+```java
     @Mock
     private BookService bookService;
 
@@ -149,7 +149,7 @@ From [BookControllerTest](src/test/java/nl/first8/generativetesting/rest/BookCon
 
 Above, we set up mocking as usual.
 
-```
+```java
     /**
      * Tests the book controller against a mock book service, using
      * junit-quickcheck to generate test data.
