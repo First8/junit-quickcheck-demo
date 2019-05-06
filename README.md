@@ -182,4 +182,4 @@ Above, we set up mocking as usual.
     }
 ```
 
-Here we let junit-quickcheck generate lists of `BookResource` objects. Note the `@From(Ctor.class)` annotation binds to the `BookResource`, the type parameter of `List`, not `List` itself.
+Here we let junit-quickcheck generate lists of `BookResource` objects. Note the `@From(Ctor.class)` annotation binds to the `BookResource`, the type parameter of `List` and not `List` itself.
