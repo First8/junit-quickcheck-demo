@@ -1,7 +1,7 @@
 # Generative testing demo
 
 This project contains examples to generate data for tests, using junit-quickcheck.
-The application itself is rest service, with one end point serving 3 books.
+The application itself is a rest service, with one end point serving 3 books.
 
 All test classes need to have a `@RunWith(JUnitQuickcheck.class)` annotation.
 
