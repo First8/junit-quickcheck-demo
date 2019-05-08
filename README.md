@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/First8/junit-quickcheck-demo.svg?branch=master)](https://travis-ci.org/First8/junit-quickcheck-demo)
+
 # Generative testing demo
 
 This project contains examples to generate data for tests, using junit-quickcheck.
