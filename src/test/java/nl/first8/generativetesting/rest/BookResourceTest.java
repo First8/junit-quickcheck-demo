@@ -1,4 +1,4 @@
-package nl.first.generativetesting.rest;
+package nl.first8.generativetesting.rest;
 
 import org.hamcrest.beans.SamePropertyValuesAs;
 import org.junit.runner.RunWith;
@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 import com.pholser.junit.quickcheck.From;
 import com.pholser.junit.quickcheck.Property;
 import com.pholser.junit.quickcheck.generator.Ctor;
+
 import com.pholser.junit.quickcheck.generator.GenerationStatus;
 import com.pholser.junit.quickcheck.generator.Generator;
 import com.pholser.junit.quickcheck.generator.java.lang.StringGenerator;
@@ -13,9 +14,10 @@ import com.pholser.junit.quickcheck.generator.java.time.LocalDateGenerator;
 import com.pholser.junit.quickcheck.random.SourceOfRandomness;
 import com.pholser.junit.quickcheck.runner.JUnitQuickcheck;
 
-import nl.first.generativetesting.Author;
-import nl.first.generativetesting.Book;
-import nl.first.generativetesting.Publisher;
+import nl.first8.generativetesting.Author;
+import nl.first8.generativetesting.Book;
+import nl.first8.generativetesting.Publisher;
+import nl.first8.generativetesting.rest.BookResource;
 
 import static org.junit.Assert.assertThat;
 

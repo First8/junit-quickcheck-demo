@@ -1,4 +1,4 @@
-package nl.first.generativetesting.rest;
+package nl.first8.generativetesting.rest;
 
 import org.apache.commons.lang3.tuple.Pair;
 import org.hamcrest.beans.SamePropertyValuesAs;
@@ -15,8 +15,10 @@ import com.pholser.junit.quickcheck.Property;
 import com.pholser.junit.quickcheck.generator.Ctor;
 import com.pholser.junit.quickcheck.runner.JUnitQuickcheck;
 
-import nl.first.generativetesting.Book;
-import nl.first.generativetesting.BookService;
+import nl.first8.generativetesting.Book;
+import nl.first8.generativetesting.BookService;
+import nl.first8.generativetesting.rest.BookController;
+import nl.first8.generativetesting.rest.BookResource;
 
 import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.when;

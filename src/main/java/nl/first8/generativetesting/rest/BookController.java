@@ -18,15 +18,15 @@ public final class BookController {
     /**
      * To query for books.
      */
-	private final BookService bookService;
-	
-	/**
-	 * @return all books
-	 */
-	@GetMapping("books")
-	public List<BookResource> books() {
-		return bookService.findAll().stream() //
-				.map(BookResource::fromBook) //
-				.collect(Collectors.toList());
-	}
+    private final BookService bookService;
+
+    /**
+     * @return all books
+     */
+    @GetMapping("books")
+    public List<BookResource> books() {
+        return bookService.findAll().stream() //
+                .map(BookResource::fromBook) //
+                .collect(Collectors.toList());
+    }
 }
