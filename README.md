@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/First8/junit-quickcheck-demo.svg?branch=master)](https://travis-ci.org/First8/junit-quickcheck-demo)
 
+Read the full article: https://technology.first8.nl/generating-test-data-with-junit-quickcheck/
+
 # Generative testing demo
 
 This project contains examples to generate data for tests, using junit-quickcheck.
